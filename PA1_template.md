@@ -30,7 +30,7 @@ stepsday <- tapply(activity$steps,activity$date,sum,na.rm = TRUE)
 qplot(stepsday,xlab= 'Total Steps',ylab= 'Number of days',binwidth = 500)
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-4-1.png)<!-- -->
+![](/figure/unnamed-chunk-4-1.png)<!-- -->
 
 ####Calculate and report the mean and median total number of steps taken per day
 
