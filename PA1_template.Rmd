@@ -1,9 +1,10 @@
 ---
-title: "Project 1 Reproducible Research"
-output:
-  html_document: default
-  pdf_document: default
+title: "Reproducible Research: Peer Assessment 1"
+output: 
+  html_document:
+    keep_md: true
 ---
+
 ```{r}
 library(ggplot2)
 ```
